@@ -40,12 +40,9 @@ This is a full-stack job portal application that enables users to search and app
 ├── Frontend/ # React App
 │ ├── naukri/ # Frontend source code
 │ ├── package.json
-│ └── ...
 ├── Naukri/ # Spring Boot Backend
 │ ├── src/
 │ ├── pom.xml
-│ └── ...
-
 ## 📬 Contact
 
 **Aniruddha Shivaji Lalge**  
