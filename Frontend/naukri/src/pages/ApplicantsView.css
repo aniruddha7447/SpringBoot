@@ -1,0 +1,92 @@
+.applicants-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.back-btn {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.back-btn:hover {
+  background-color: #5a6268;
+}
+
+.job-header {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.job-header h2 {
+  color: #343a40;
+  margin-bottom: 5px;
+}
+
+.job-header p {
+  color: #6c757d;
+  margin: 0;
+}
+
+.no-applicants {
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.applicants-table-container {
+  overflow-x: auto;
+}
+
+.applicants-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.applicants-table th,
+.applicants-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.applicants-table th {
+  background-color: #f1f3f5;
+  font-weight: 600;
+  color: #495057;
+}
+
+.applicants-table tr:hover {
+  background-color: #f8f9fa;
+}
+
+.view-profile-btn {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.view-profile-btn:hover {
+  text-decoration: underline;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #6c757d;
+}

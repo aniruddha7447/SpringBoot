@@ -1,0 +1,83 @@
+.job-card {
+  background-color: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-4px);
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+
+.job-header h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #222;
+}
+
+.company {
+  font-size: 14px;
+  color: #888;
+  font-weight: 500;
+}
+
+.job-details p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.job-details strong {
+  color: #111;
+}
+
+/* Buttons */
+.job-actions {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+}
+
+.apply-btn,
+.reject-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.apply-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.apply-btn:hover {
+  background-color: #0062cc;
+}
+
+.reject-btn {
+  background-color: #f8f9fa;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.reject-btn:hover {
+  background-color: #e2e6ea;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
